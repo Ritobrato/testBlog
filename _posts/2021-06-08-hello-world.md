@@ -5,6 +5,7 @@ date: 2021-06-09 12:50:20 +0530
 author: Ritobrato
 comments: true
 categories: adventure
+tag: scifi
 ---
 
 `Hello world` this is my first sample blog post. Feels great when the build is successful!

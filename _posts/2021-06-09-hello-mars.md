@@ -3,6 +3,7 @@ layout: post
 title: Hello Mars
 date: 2021-06-09 15:06:20 +0530
 author: Ritobrato
+comments: true
 Categories: adventure
 tag: scifi
 ---
