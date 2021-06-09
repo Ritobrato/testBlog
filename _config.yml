@@ -22,7 +22,7 @@ title: The daily journal
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   My awesome site
-baseurl: "/testBlog/" # the subpath of your site, e.g. /blog
+baseurl: "/testBlog" # the subpath of your site, e.g. /blog
 url: "https://ritobrato.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Ritochatt1
 github_username:  Ritobrato

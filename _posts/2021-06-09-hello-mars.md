@@ -13,6 +13,6 @@ tag: scifi
 
 Hello martians! How are you?
 
-![This is an image]({{site.url}}{{site.baseurl}}assets/trek1.jpg)
+![This is an image]({{site.url}}{{site.baseurl}}/assets/trek1.jpg)
 
 *This is a sample caption*
