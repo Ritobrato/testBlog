@@ -10,24 +10,4 @@ layout: home
   you won't be able to read any messages, SHOO!
 </p>
 
-<p>testing post list</p>
-<h3>Post list</h3>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{post.url}}">{{post.title}}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-<p>testing tags</p>
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
-
 <h1>Posts</h1>
