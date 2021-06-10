@@ -14,6 +14,6 @@ tag: scifi
 
 Hello martians! How are you?
 
-![This is an image]({{site.url}}{{site.baseurl}}/assets/trek1.jpg)
+{% include image.html %}
 
 *This is a sample caption*
