@@ -17,3 +17,7 @@ Hello martians! How are you?
 {% include image.html %}
 
 *This is a sample caption*
+
+![This is an image](/assets/trek2.JPG | relative_url)
+
+*This is another caption*
