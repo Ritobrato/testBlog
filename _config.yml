@@ -19,25 +19,48 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The daily journal
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My awesome site
+tagline: A weekly blogging site . . .
+lang: en
+
 baseurl: "/testBlog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Ritochatt1
-github_username:  Ritobrato
+
+# markdown type
+kramdown:
+  input: GFM
+
+# search by tags
+tags_path: "/tags/"
 
 # Custom variable present in the index.html file in _site dir
-author: Ritobrato
+author.name: Ritobrato
 
+#pagination gem added
 paginate: 2
 paginate_path: "/blog/page:num/"
 
 # Build settings
-theme: minima
+theme: monophase
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+        layout: "post"
+        author: Ritobrato
+        comments: true
+
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
