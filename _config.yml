@@ -22,7 +22,7 @@ title: The daily journal
 tagline: A weekly blogging site . . .
 lang: en
 
-baseurl: "/testBlog" # the subpath of your site, e.g. /blog
+baseurl: "/testBlog/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # markdown type
